@@ -1,139 +1,88 @@
-# Politique de Confidentialité / Privacy Policy
 
-Dernière mise à jour / Last updated: 12 Nov 2025
+Politique de confidentialité — Qadhyat
+======================================
 
----
-## FR – Politique de Confidentialité
+Application : **Qadhyat** (com.qadhyat.client) — Éditeur opérateur : **Abam-Tech Solutions SARL**, Tunisie — Dernière mise à jour : 18 mai 2026
 
-### 1. Introduction
-L'application **Qadhyat Vendor** ("l'Application") permet aux vendeurs de gérer leurs produits, services, commandes et rapports financiers. Cette politique décrit comment nous collectons, utilisons, stockons et protégeons vos données.
+La présente politique décrit les données traitées par l'application mobile **Qadhyat** (ci-après « l'application ») exploitée par **Abam-Tech Solutions SARL**, société de droit tunisien (ci-après « nous »).
 
-### 2. Données collectées
-Nous pouvons collecter ou traiter les catégories de données suivantes lorsque vous utilisez l'Application:
-- **Images / Photos (CAMERA)**: prises via votre appareil pour illustrer des produits, documents ou pour scanner des codes (ex: QR).
-- **Fichiers exportés**: rapports PDF générés localement (earnings / sales) et enregistrés sur votre appareil.
-- **Notifications / Identifiants techniques**: jetons de notifications poussoirs pour délivrer des notifications (Firebase Cloud Messaging).
-- **Données d'utilisation**: métadonnées (dates de création de commandes, agrégations pour rapports). 
+1\. Données que nous traitons
+-----------------------------
 
-Nous ne collectons pas intentionnellement des données sensibles (santé, religion, biométrie) par le biais de l'Application.
+*   **Identité et compte** : nom, prénom, email, numéro de téléphone, mot de passe (haché), photo de profil (facultative).
+*   **Localisation** : position GPS précise et approximative, utilisée uniquement lorsque l'application est ouverte, afin de proposer les commerces et services à proximité et de livrer vos commandes à la bonne adresse.
+*   **Carnet d'adresses de livraison** : adresses que vous enregistrez vous-même.
+*   **Commandes et paiements** : historique des commandes, montants, mode de paiement choisi. Les coordonnées bancaires complètes ne sont jamais stockées par l'application ; elles transitent directement chez le prestataire de paiement.
+*   **Données techniques** : identifiant d'appareil, modèle, version d'OS, jeton de notification push (Firebase Cloud Messaging), journaux de plantage (Firebase Crashlytics).
+*   **Communications** : messages échangés via la messagerie intégrée (chat support, suivi de commande).
 
-### 3. Finalités du traitement
-- Affichage et gestion du catalogue (produits / services / packages).
-- Génération et export de rapports financiers (ventes, revenus).
-- Traitement de commandes (statuts, historique, suivi).
-- Envoi de notifications transactionnelles (changement de statut, rappels).
-- Amélioration technique et débogage (journalisation limitée côté serveur).
+2\. Finalités
+-------------
 
-### 4. Permission CAMERA
-La permission `android.permission.CAMERA` est utilisée uniquement pour:
-- Capturer des images de produits/services.
-- Scanner des QR codes ou codes-barres (si la fonctionnalité est activée).
-Aucune photo n'est publiée automatiquement; l'envoi se fait uniquement lorsque vous confirmez une action (ex: ajout de produit).
+*   Créer et gérer votre compte.
+*   Présenter les commerçants, produits et services dans votre zone.
+*   Traiter, livrer et facturer vos commandes.
+*   Vous envoyer des notifications liées à vos commandes (préparation, livraison, paiement).
+*   Assurer la sécurité (lutte contre la fraude, détection d'usages anormaux).
+*   Améliorer la stabilité de l'application (analyse anonymisée des plantages).
+*   Répondre à vos demandes d'assistance.
 
-### 5. Partage des données
-Vos données ne sont **pas vendues** à des tiers. Elles peuvent être partagées uniquement avec:
-- Fournisseurs techniques (hébergement, CDN, services push) pour assurer le fonctionnement.
-- Autorités légales si la loi l'exige.
+3\. Base légale
+---------------
 
-### 6. Conservation
-Les données opérationnelles (produits, commandes, rapports agrégés) sont conservées aussi longtemps que nécessaire pour fournir le service ou pour répondre à des obligations légales. Les images peuvent être supprimées sur demande ou lors de la suppression d'un produit.
+Exécution du contrat (vos commandes), intérêt légitime (sécurité, prévention de la fraude), consentement (notifications push, localisation), obligation légale (comptabilité, lutte anti-blanchiment).
 
-### 7. Sécurité
-Nous appliquons des mesures raisonnables: transmission chiffrée (HTTPS/TLS), contrôles d'accès basés sur rôles/permissions, surveillance d'erreurs (ex: Crashlytics). Aucune mesure n'offre une sécurité absolue; veuillez protéger vos identifiants.
+4\. Partage des données
+-----------------------
 
-### 8. Vos droits
-Selon votre juridiction, vous pouvez demander: accès, rectification, suppression, limitation. Pour toute demande: contactez-nous à l'adresse ci-dessous.
+Nous partageons strictement le minimum nécessaire avec :
 
-### 9. Politique enfants
-L'Application est destinée à un usage professionnel / commercial et non aux enfants.
+*   les **commerçants** auprès desquels vous commandez (votre prénom, le numéro de commande, l'adresse de livraison) ;
+*   les **livreurs** partenaires (votre prénom, votre téléphone le temps de la livraison, l'adresse) ;
+*   les **prestataires de paiement** que vous avez choisis ;
+*   Google (Firebase Authentication, Cloud Messaging, Crashlytics, Maps) et Meta (option de connexion Facebook) lorsque vous utilisez ces fonctions ;
+*   les autorités, sur réquisition légale uniquement.
 
-### 10. Services tiers
-- Firebase (Auth, Messaging, Crashlytics, Firestore)
-- Stockage de fichiers selon l'infrastructure (ex: Object Storage chiffré)
-Chacun possède sa propre politique de confidentialité.
+Nous ne vendons jamais vos données à des tiers à des fins publicitaires.
 
-### 11. Modifications
-Nous pouvons mettre à jour cette politique. La date de révision est indiquée en haut. Les modifications significatives seront notifiées via l'Application ou par e-mail (si disponible).
+5\. Durée de conservation
+-------------------------
 
-### 12. Contact
-Support / Privacy: qadhyat.tn@gmail.com.
+*   Compte actif : tant que le compte existe.
+*   Compte supprimé : les données personnelles sont effacées sous 30 jours, sauf obligation de conservation comptable (10 ans pour les factures).
+*   Journaux techniques : 12 mois maximum.
 
----
-## EN – Privacy Policy
+6\. Vos droits
+--------------
 
-### 1. Introduction
-The **Qadhyat Vendor** application ("the App") enables vendors to manage products, services, orders, and financial reports. This policy explains how we collect, use, store, and protect your data.
+Vous pouvez à tout moment :
 
-### 2. Data Collected
-We may collect or process the following categories:
-- **Images / Photos (CAMERA)**: captured to illustrate products or scan codes (e.g., QR).
-- **Exported files**: locally generated PDF reports (earnings / sales) saved on your device.
-- **Notification tokens**: push tokens (Firebase Cloud Messaging) for transactional notifications.
-- **Usage data**: metadata (order timestamps, aggregated financial metrics).
+*   consulter, corriger ou exporter vos données depuis l'écran « Profil → Mes informations » ;
+*   **supprimer votre compte** depuis « Profil → Paramètres → Supprimer mon compte » ; cette action déclenche l'effacement de vos données personnelles (voir §5) ;
+*   retirer le consentement à la localisation ou aux notifications depuis les réglages Android ;
+*   nous contacter pour exercer vos droits : [privacy@abam-tech.com](mailto:privacy@abam-tech.com).
 
-We do **not** intentionally collect sensitive personal data (health, religion, biometric) through the App.
+7\. Sécurité
+------------
 
-### 3. Purposes
-- Display and management of catalog (products / services / packages).
-- Generation & export of financial reports (sales, earnings).
-- Order processing (statuses, history, tracking).
-- Transactional notifications (status changes, reminders).
-- Technical improvement & debugging (limited server logging).
+Chiffrement HTTPS de bout en bout, mots de passe hachés, jetons d'authentification stockés dans le stockage sécurisé Android (Keystore), accès aux données restreint et journalisé côté serveur.
 
-### 4. CAMERA Permission
-The `android.permission.CAMERA` permission is used only to:
-- Capture product/service images.
-- Scan QR codes or barcodes (when feature is enabled).
-No photo is auto-published; upload occurs only after user confirmation.
+8\. Enfants
+-----------
 
-### 5. Data Sharing
-We do **not sell** your data. Data may be shared only with:
-- Technical service providers (hosting, CDN, push services) necessary for functionality.
-- Legal authorities if required by law.
+L'application n'est pas destinée aux personnes de moins de 13 ans. Nous ne collectons pas sciemment de données concernant des enfants.
 
-### 6. Retention
-Operational data (products, orders, aggregate reports) are retained as long as needed to provide the service or meet legal obligations. Images can be deleted upon request or product removal.
+9\. Modifications
+-----------------
 
-### 7. Security
-Measures include encrypted transport (HTTPS/TLS), role/permission based access, error monitoring (Crashlytics). No method is 100% secure; protect your credentials.
+Toute modification substantielle vous sera notifiée dans l'application 30 jours avant son entrée en vigueur.
 
-### 8. Your Rights
-Subject to local law you may request: access, correction, deletion, restriction. Contact us at the address below.
+10\. Contact
+------------
 
-### 9. Children
-The App targets professional / commercial use, not children.
+Abam-Tech Solutions SARL  
+Tunisie  
+Courriel : [privacy@abam-tech.com](mailto:privacy@abam-tech.com)  
+Site : [https://abam-tech.com](https://abam-tech.com)
 
-### 10. Third-Party Services
-- Firebase (Auth, Messaging, Crashlytics, Firestore)
-- File/object storage (encrypted where applicable)
-Each has its own privacy policy.
-
-### 11. Changes
-We may update this policy. Revision date is shown at the top. Material changes may be announced via the App or email.
-
-### 12. Contact
-Support / Privacy: **support@qadhyat.example** (replace with real email).
-
----
-## Data Safety (Résumé / Summary)
-| Catégorie / Category | Collecte / Collected | Partage / Shared | Usage / Purpose |
-|----------------------|----------------------|------------------|-----------------|
-| Images (CAMERA)      | Oui / Yes            | Non / No         | Product media, scans |
-| Notifications token  | Oui / Yes            | Non / No         | Push notifications |
-| Orders & reports     | Oui / Yes            | Non / No         | Core functionality |
-| Crash logs           | Oui / Yes (aggregated)| Fournisseurs techniques / Technical providers | Diagnostics |
-
-_Aucune vente de données. Pas de publicité ciblée._
-
----
-## Implémentation technique (Annexe / Appendix)
-- Stockage persistant côté serveur: identifiants de commande, produits, métriques agrégées.
-- Pas de partage vers réseaux sociaux automatique.
-- Export PDF: généré en local, peut être conservé sur l'appareil.
-
----
-## Limitations
-Cette politique ne couvre pas les sites ou services externes vers lesquels vous pourriez être redirigé.
-
----
-Fin du document.
+© 2026 Abam-Tech Solutions SARL — Tous droits réservés.
